@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+.font--kerning {
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "kern";
+  -webkit-font-feature-settings: "kern";
+  -moz-font-feature-settings: "kern";
+  -moz-font-feature-settings: "kern=1";
+  font-kerning: normal; }
+
+html {
+  font-family: 'Open Sans', sans-serif; }
+  html * {
+    font-family: 'Open Sans', sans-serif; }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+.background-image {
+  background-image: url("../images/background.jpg");
+  background-size: 100% auto;
+  background-size: cover;
+  background-position: 50% 0;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 0; }
+
+.site-content {
+  color: #fff;
+  z-index: 50; }
+  .site-content .site-block {
+    height: 100vh;
+    position: relative;
+    width: 100%; }
+  .site-content .first .logo {
+    font-family: 'Raleway', monospace;
+    font-size: 18vw;
+    font-weight: 800;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    -webkit-transform: translate(-50%, -70%);
+    -ms-transform: translate(-50%, -70%);
+    -moz-transform: translate(-50%, -70%);
+    -o-transform: translate(-50%, -70%);
+    transform: translate(-50%, -70%); }
+  .site-content .first .subtext {
+    font-family: 'Raleway', monospace;
+    font-size: 5vw;
+    font-weight: 300;
+    margin-top: 10px;
+    text-align: center; }
+    .site-content .first .subtext.top {
+      margin-top: 30px; }
+  .site-content .first a {
+    color: #fff; }
+  @media (min-width: 600px) {
+    .site-content .first .logo {
+      font-size: 60px; }
+    .site-content .first .subtext {
+      font-size: 22px; } }
+  @media (min-width: 1024px) {
+    .site-content .first .logo {
+      font-size: 90px; }
+    .site-content .first .subtext {
+      font-size: 34px; } }
